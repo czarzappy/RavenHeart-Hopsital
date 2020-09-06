@@ -1,0 +1,517 @@
+//DANTE / EPISODE 2 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE:
+*SUBTITLE: Episode 1
+*LOVE_FOCUS: DANTE
+*BG: hospital_outside
+*BGM: chill_morning
+
+
+*NARRATOR
+You were called to meet Dante at the front entrance of RavenHeart Hospital.
+
+
+*PROTAG,2
+*DANTE,4
+Hey, we gotta go. Now.
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                What’s going on?
+
+
+                *DANTE
+What part of now do you not understand? I’ll tell ya on the way.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Nod and get into the Inferno>
+
+
+                *LOVE:1
+                *DANTE
+                Let’s roll!
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*END_CUTSCENE
+
+
+
+
+*CUTSCENE
+*BG: charmcity_street
+*BGM: dante_hangout
+
+
+*NARRATOR
+Dante speeds through the city.
+
+
+*DANTE, 3
+There’s been a collision involving multiple cars and a moving truck. It’s an absolute mess. No word on the number of wounded.
+
+
+*DANTE, leave
+
+
+*NARRATOR
+At first you see the smoke. Soon after, the wreckage.
+
+
+Dante pulls the clutch, turns the steering wheel sharply and slams on the breaks, drifting into a screeching stop.
+
+
+*DANTE,5
+*PROTAG, 1
+
+
+*NARRATOR
+The two of you get out and you are caught up in the image of the flipped vehicles. 
+
+
+Thankfully the Fire Department has already arrived and pulled victims from the wreckage. They are currently working to put out the fires.
+
+
+Dante begins quickly pulling supplies out of the trunk of the Inferno. He looks over his shoulder while his hands continue to work.
+
+
+*DANTE
+What are you doin’ just standing there? Gimme a hand.
+
+
+*PROTAG, 4
+
+
+*NARRATOR
+You rush over to Dante’s side to help him with the supplies.
+
+
+*ACTION_CHOICE 
+//neat to give a bonus if you pick the right stuff
+        *CHOICE
+                *PROTAG
+                <Grab the Defibrillator>
+
+
+                *NARRATOR
+You pick up the little electronic box. It’s surprisingly light.
+
+
+                *DANTE
+I don’t think we need that, but if you wanna carry it be my guest. 
+
+
+*PROTAG
+You can never be too careful, right?
+
+
+*DANTE
+I want YOU to be careful with it. You break it, you buy it.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Grab the suture kit>
+                
+                *NARRATOR
+You grab the suture kit that contains specialized forceps and biologically absorbable sutures.
+
+
+*LOVE:1
+
+
+*DANTE
+Good thinking. Those will come in handy if we have any lacerations.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Grab the can of Bull Rush Energy Drink>
+
+
+                *NARRATOR
+You grab the can of Bull Rush XTREME!! N-R-G that has clearly been sitting in the trunk forgotten for months.
+
+
+                *DANTE
+What the heck, that’s my lunch right there! Hands off, pal!
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+You should really consider a balanced meal for lunch. Perhaps some herbal green tea as well?
+
+
+*DANTE
+Who asked you!?
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                I see you are a gentleman of refined taste.
+                
+                *DANTE
+What in the heck are you talkin’ about? 
+
+
+*LOVE:1
+
+
+*NARRATOR
+Dante tries to hide his cheeks blushing and mutters under his breath.
+
+
+*DANTE
+Dumb goofball...
+        *END_CHOICE
+*END_ACTION_CHOICE
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*END_CUTSCENE
+
+
+
+
+*PREOP
+*BG: charmcity_street
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*PROTAG, 3
+*DANTE, 5
+The Fire Department is going to handle the fire and remove the debris from the vehicles. 
+
+
+Our job is to patch up the wounded and stabilize them so they survive the trip to the hospital.
+
+
+*DANTE
+Quiz time, rookie! What fun’s in store for us today? What kind of injuries should we expect to see from a car collision?
+
+
+*PROTAG, thinking
+Lacerations, bone fractures, whiplash, potentially internal bleeding, post-traumatic stress...
+
+
+*DANTE
+Well, we can’t fix that last one, but we can try to help with the others, right?
+
+
+*PROTAG
+I suppose you are right.
+
+
+Let’s get to it.
+
+
+*END_PREOP
+
+
+
+
+*OPERATION
+*BG: charmcity_street
+*BGM: operation_a
+*TOOL_TIPS: DANTE
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Crash Victim
+*VITALS: 60,40                //max, current
+*PHASE: black
+*PATIENT_TALK
+My… chest…
+
+
+*DANTE
+Your chest? What’s wrong with your-
+
+
+*PROTAG
+He’s going into cardiac arrest!
+
+
+*DANTE
+Get the AED and try to restart his heart!
+
+
+*PROTAG
+AED?
+
+
+*DANTE
+Automated External Defibrillator! C’mon! Hurry!
+*END_PHASE
+*PHASE: chest
+*DEFIBRILLATOR
+*END_PHASE
+*PHASE
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 3
+
+
+*DANTE
+Looks like we got more work to do here.
+*END_PHASE
+*PHASE
+        *DANTE
+Good work. Get this guy outta here! We have more people to tend to. Move-move-move-move!
+*END_PHASE
+//-------------------------------------------------------------------
+*PHASE: leg_left
+*WOUND_CUT_LARGE, 1
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+*PATIENT_TALK
+What if I can never walk again?
+
+
+*DANTE
+I need you to calm down.
+
+
+*PATIENT_TALK
+How can I be calm when I almost died!?
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, calm
+But you survived and you’re going to make it.
+*ACTION_VITALS: add, 10         //add,sub,set
+*PATIENT_TALK
+... Thank you...
+*END_CHOICE
+*CHOICE
+*PROTAG, smile
+You’re doing great. Hang in there just a little longer.
+*ACTION_VITALS: add, 20
+*PATIENT_TALK
+... Thank you...
+*END_CHOICE
+*CHOICE
+*PROTAG, angry
+We’re doing the best we can!
+*PATIENT_TALK
+…
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*DANTE
+We need to clean up the wounds in the leg before we can set it in a cast.
+*END_PHASE
+*PHASE
+        *BROKEN_LEG_BONE_CAST
+*END_PHASE
+*PHASE
+        *DANTE
+Next!
+*END_PHASE
+//when we add triage, this will be a new patient
+//-------------------------------------------------------------------
+*PHASE: arm_right
+*WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 3
+
+
+*PATIENT_TALK
+I think my arm is broken…
+Please help… It hurts…
+
+
+*DANTE
+Just stay still, we’re here to help.
+
+
+PROTAG, you need to remove the debris before dealing with the broken bones.
+*END_PHASE
+*PHASE
+        *BROKEN_ARM_BONE_CAST
+
+
+        *DANTE
+        Wrap the arm in a bandage.
+*END_PHASE
+*PHASE
+        *DANTE
+        Alright, who’s next?
+*END_PHASE
+//-------------------------------------------------------------------
+*PHASE: leg_right
+*WOUND_CUT_SMALL, 3
+        *WOUND_GLASS, 3
+
+
+        *PATIENT_TALK
+        My son… have you seen my son?
+        
+        *NARRATOR
+        Dante turns to a nearby firefighter working on clearing debris.
+
+
+*DANTE
+HEY! Have you found any kids yet?
+
+
+*NARRATOR
+Firefighter: I’ll let the extraction team know a child is missing.
+
+
+*PATIENT_TALK
+Don’t save me! Save my son!
+
+
+*ACTION_CHOICE
+                *CHOICE
+                        *PROTAG
+                        Ma’am, you need to calm down!
+
+
+                        *PATIENT_TALK
+                        CALM!? WHO DO YOU THINK YOU ARE-
+
+
+                        *DANTE
+                        (What the heck was that, PROTAG?
+                *END_CHOICE
+*CHOICE
+        *PROTAG
+        What’s your son’s name?
+
+
+        *PATIENT_TALK
+        Billy.
+
+
+        *DANTE
+        (The kid’s name doesn’t really matter right now.)
+*END_CHOICE
+*CHOICE
+        *PROTAG
+        What car were you driving?
+
+
+        *PATIENT_TALK
+We were in a blue van.
+
+
+*LOVE: 1
+*DANTE
+(Smart thinkin’, kid! That’ll help narrow down where to search.)
+
+
+*NARRATOR
+Dante shouts at the extraction team.
+
+
+*DANTE
+Look for the blue van! The kid’s in the blue van!
+*END_CHOICE
+*END_ACTION_CHOICE
+*END_PHASE
+*PHASE
+        *DANTE
+We have another patient to help. 
+
+
+*PROTAG
+Let’s work quickly so we’ll be ready when the extraction crew arrives with the missing child.
+*END_PHASE
+//-------------------------------------------------------------------
+*PHASE: face
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 4
+*WOUND_STEEL_SMALL, 2        
+
+
+*PATIENT_TALK
+My head feels funny.
+
+
+*DANTE, exasperated
+I take back what I said earlier.
+
+
+*PATIENT_TALK
+W… What?
+
+
+*DANTE, exasperated
+Don’t worry about it. Just try to stay still.
+
+
+*NARRATOR
+Dante leans over to whisper to you.
+
+
+*DANTE
+(Hey, be careful when removing that rebar. 
+Pull too hard and his brains might come out!)
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+(That’s not funny.)
+
+
+*DANTE
+(Humor is the only way I can cope, okay?)
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+(At least he’s got brains, unlike someone else I know…)
+
+
+*LOVE:1
+*NARRATOR
+Dante chuckles quietly to himself.
+        *END_CHOICE
+*END_ACTION_CHOICE
+*END_PHASE
+*PHASE
+*NARRATOR
+Extraction Team Member: “We found the child!”
+
+
+*DANTE
+        Great work! Let’s patch this kid up and get outta here.
+*END_PHASE
+//-------------------------------------------------------------------
+*PHASE: chest_02
+*WOUND_CUT_SMALL, 4
+*WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 3
+
+
+*PATIENT_TALK
+Mommy? Mommy?
+
+
+*DANTE
+We got your mom, kid. 
+Just chill out and let us take care of you.
+
+
+*PATIENT_TALK
+WAAAAAAAH!
+
+
+*DANTE
+Remind me never to have kids...
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+
+
+//date w/ dante: do you believe in ghosts/aliens?

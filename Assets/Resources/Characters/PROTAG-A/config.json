@@ -1,0 +1,21 @@
+{
+    "Id": 4,
+    "DevName": "PROTAG-A",
+    "CharacterNameBackgroundColor": {
+        "r": 0.5,
+        "g": 1.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Androgynous_v2"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false
+}

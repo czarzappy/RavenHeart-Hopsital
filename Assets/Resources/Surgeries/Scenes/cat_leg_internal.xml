@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cat_leg_internal</Name>
+  <BgOffset>
+    <X>0</X>
+    <Y>0</Y>
+  </BgOffset>
+  <OverrideBgSize>
+    <X>1217.296</X>
+    <Y>684.729</Y>
+  </OverrideBgSize>
+  <BgType>Internal</BgType>
+  <Entities>
+    <Entity>
+      <Tag>BROKEN_CAT_LEG</Tag>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Rotation>0</Rotation>
+    </Entity>
+    <Entity>
+      <Tag>HEMORRHAGE</Tag>
+      <Position>
+        <X>101</X>
+        <Y>-132</Y>
+      </Position>
+      <Rotation>21.5820065</Rotation>
+    </Entity>
+    <Entity>
+      <Tag>HEMORRHAGE</Tag>
+      <Position>
+        <X>-152</X>
+        <Y>71</Y>
+      </Position>
+      <Rotation>283.804077</Rotation>
+    </Entity>
+    <Entity>
+      <Tag>HEMORRHAGE</Tag>
+      <Position>
+        <X>152</X>
+        <Y>92</Y>
+      </Position>
+      <Rotation>0</Rotation>
+    </Entity>
+  </Entities>
+</Scene>

@@ -1,0 +1,591 @@
+//BIGTEX / EPISODE 1 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE: Shots & Hotshots
+*SUBTITLE: Episode 1
+*LOVE_FOCUS: BIGTEX
+*BG: charmcity_street
+*BGM: chill_morning
+
+
+*PROTAG, 2
+
+
+*NARRATOR
+It's nice and sunny in Charm City this morning. As you walk to RavenHeart Hospital, you hear the jangle of spurs. Who could it be?
+
+
+*BIGTEX, 4
+Howdy, partner! Wanna grab some grub before our operation today?
+
+
+*NARRATOR
+Your stomach rumbles at the thought. Breakfast sounds pretty good right about now.
+
+
+*PROTAG
+Sounds good. I’ll meet you for breakfast at the Cafeteria in a few minutes.
+
+
+*BIGTEX
+Yeehaw!
+
+
+*END_CUTSCENE
+
+
+*CUTSCENE
+*BGM: chill_morning
+*BG: hospital_cafeteria
+
+
+*NARRATOR
+You make your way to the Hospital’s Cafeteria. It has a variety of culinary options, somewhat reminiscent of a fancy airport or a mall food court.
+
+
+*BGM: bigtex_hangout
+
+
+You hear a familiar jingle of spurs echoing throughout the atrium. Turning around quickly and you find yourself standing face-to-face with what you could only describe as a cowboy wearing scrubs.
+
+
+*PROTAG, 2
+
+
+*BIGTEX, neutral, 4
+You look famished. 
+Here, let me rustle up some grub for ya.
+
+
+*BIGTEX, leave
+
+
+*NARRATOR
+Big Tex goes over to the display and grabs several platefuls of food. He plops them down on a nearby table, somehow not making a mess.
+
+
+*BIGTEX, 4
+C’mon now, take a seat and get comfy.
+
+
+*NARRATOR
+You take your seat across from Big Tex. His eyes grow wide in anticipation for what you are going to eat.
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                <Take the bacon & eggs>
+                
+                *NARRATOR
+You take the plate of fried turkey bacon and fried eggs. 
+
+
+*LOVE: 1
+
+
+*BIGTEX
+The classic! The one-two-punch! The old up n’ at ‘em!
+
+
+*NARRATOR
+You take a bite of the greasy bacon. It practically melts in your mouth. The sunny-side up egg is fried to perfection. 
+
+
+*BIGTEX
+Sunny side up eggs are the brightest part of any day!
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Take the pancakes & syrup>
+
+
+*NARRATOR
+You take the stack of pancakes and drench it with syrup.
+
+
+*LOVE: 1
+
+
+                *BIGTEX
+                A snack attack with a flapjack short stack!
+
+
+*NARRATOR
+The syrup cascades down the sides like a golden waterfall. You take your knife, cut a slice of the buttermilk mountain and stuff your face. The taste is divine.
+        *END_CHOICE
+*CHOICE
+                *PROTAG
+                <Take the hashbrowns>
+                
+*NARRATOR
+You take the plate of hash browns. The thinly sliced potatoes are still crackling from the frier. Big Tex squirts some ketchup onto the side of your place to dip the hashbrowns into.
+
+
+*LOVE: 1
+
+
+                *BIGTEX
+                Just like mama used to make!
+
+
+                *NARRATOR
+You turn your fork sideways and cut off a little piece and dip it into the ketchup. It tastes like the best french fries you’ve ever had.
+        *END_CHOICE
+*CHOICE
+                *PROTAG
+                <Take the chocolate donut>
+
+
+                *LOVE: 1
+
+
+                *BIGTEX
+                Someone’s got a sweet tooth!
+
+
+                *NARRATOR
+The donut is covered in a dark chocolate glaze which glistens in the early morning sunlight. Upon closer inspection, you can see an intricate pattern on the perimeter.
+
+
+Interlaced lines of white chocolate and milk chocolate around the center, weaved together like how you would braid someone’s hair. The pattern is strangely hypnotic...
+
+
+*BIGTEX
+What’s wrong? Didja’ get a donut or didja’ go-nuts?
+
+
+*NARRATOR
+Big Tex laughs at his joke which snaps you back to reality. “It’s just a donut,” you tell yourself and take a bite. 
+
+
+You were expecting a lot of chocolate but the caramel filling took you by surprise. The mix of different types of sweetnesses nearly knocks you out.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*BIGTEX
+Done already? Hold yer horses, I can getcha’ some more. 
+
+
+*BIGTEX, leave
+
+
+*NARRATOR
+Big Tex rushes over to the food stands. The jangle of his spurs ring out over the ambient noise of the cafeteria. 
+
+
+*BIGTEX, 4
+
+
+*NARRATOR
+He rushes back to the table and suddenly stops to answer his holopad. Several donuts plop to the floor from Big Tex’s formidable grasp.
+
+
+*BIGTEX
+Howdy, Big Tex here.
+
+
+… 
+
+
+I’ll be there faster than shakin’ a lamb with two tails.
+
+
+Sorry, buckaroo, but I gotta skedaddle. I’ll see you in the OR later.
+
+
+*END_CUTSCENE
+
+
+*PREOP
+*BG: hospital_operatingroom
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*BIGTEX, 4
+*HOLIDAY, 5
+Your patient today is William Harris. He is nine years old. William was involved in a car accident yesterday afternoon.
+
+
+He was brought to the ER and we performed X-Rays and found that William’s ribs were broken. He was prescribed some pain medication and was sent home.
+
+
+It appears his pain medication is having adverse effects on his motor skills. This morning, William’s mother brought him to the ER after he got dizzy and fell. I have another doctor looking into alternative painkillers so this won’t happen again.
+
+
+Preliminary tests seem to show that the fall broke off fragments of rib bones which has potentially caused some internal bleeding. 
+
+
+You will need to remove the bone fragments and put them back in place. Secure the fragments and kickstart the healing process with MediGel. 
+
+
+Also be sure to remove any blood pools. You’ll want a clear view as you work. Mr. Dallas will assist you throughout this operation.
+
+
+*BIGTEX
+You can count on me!
+Big Tex will be with you till the cows come home.
+
+
+*HOLIDAY
+Take particular care with this patient. William’s vitals are notably low due to his stroke.
+
+
+*PROTAG, 2
+Big Tex, prepare the safety checklist and scrub up for the OR.
+
+
+*END_PREOP
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: operation_a
+*TOOL_TIPS: BIGTEX
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Billy H.
+*VITALS: 40,30
+*PHASE: chest_02
+*SCALPEL: 1
+
+
+*BIGTEX
+Let’s open ‘em up and give ‘em a look-see.
+*END_PHASE
+*PHASE: chest_internal_01
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 3
+*BROKEN_RIBS        //pull out bone shards, reassemble, juice
+
+
+        *BIGTEX
+        Woo-wee!
+This kid’s insides are uglier than mud on a fence.
+*END_PHASE
+*PHASE
+        *BIGTEX, surprised
+        Little Billy is still hemorrhaging blood.
+
+
+        *PROTAG
+It seems to be coming from his abdomen.
+Let’s take a closer look.
+*END_PHASE
+*PHASE: stomach
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 3
+*ULCER_SMALL: 7                //inject medicine
+
+
+*BIGTEX
+You’ll need to inject medicine directly into the small ulcers and remove the larger ones.
+*END_PHASE
+*PHASE
+*SPAWNER_HEMORRHAGE
+*HEMORRHAGE: 3
+*ULCER_LARGE: 4                //sterilize, cut, remove, patch, medigel
+
+
+*BIGTEX
+These big ulcers are a doozy, but I know you got this, partner!
+*END_PHASE
+*PHASE
+        *BIGTEX
+Good work, Doc!
+Let’s get this youngin’ closed up and outta here.
+*END_PHASE
+*PHASE: chest_02
+        *SUTURE        //stitch, gel bandage
+*END_PHASE
+*PHASE
+        *BIGTEX
+I think Billy is gonna’ be A-OK!
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+
+
+
+
+*CUTSCENE
+*LOVE_FOCUS: BIGTEX
+*BG: hospital_hallway
+*BGM: chill_afternoon
+
+
+*NARRATOR
+Soon after the operation is over, you and Big Tex meet outside the patient’s room. 
+
+
+*PROTAG,2
+
+
+*BIGTEX,4
+Good work on the operation, partner. The next part will be a test of your bedside manner. You have to be real gentle with youngins and make sure to acknowledge the family’s presence as well.
+
+
+Remember, folks don’t ride into the hospital ‘cuz they're having a good day. We see ‘em at their worst, so we gotta lift their spirits as well as heal their wounds.
+
+
+Lookie here: Billy is starting to wake up, let’s go check up on him.
+
+
+*BIGTEX, 3
+*WILLIAM, 4
+*STEPHANIE, 5
+
+
+
+
+*NARRATOR
+You and Big Tex enter the room. Billy is lying in the bed and appears to be groggy. An IV is being fed into his arm. His mother is holding his hand, sitting next to him. 
+
+
+*ACTION_CHOICE, 2
+        *CHOICE
+                *PROTAG
+                Good afternoon! How is everyone doing?
+
+
+                //*NARRATOR
+                //Billy: My... whole body hurts...
+
+
+                *WILLIAM
+My... whole body hurts...
+
+
+                *BIGTEX
+<Whispering> Maybe ya should have stopped at the “good afternoon.”
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Sorry to keep y’all waiting.
+
+
+                *BIGTEX
+<Whispering> It's good to acknowledge that your patients have to wait on you but you don’t need to apologize for being busy.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Thank you for your patience, Ms. Harris, William.
+
+
+*LOVE: 1
+
+
+*BIGTEX
+<Whispering> Great job. Solid opener. 
+
+
+*BREAK
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                It was a good thing you brought Billy in today.
+
+
+                *BIGTEX
+                <Whispering> Easy now, try to start off a little more 
+gentle. Don’t patronize.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+//Ms. Harris looks up at you eagerly.
+Stephanie, William’s mother, looks up at you eagerly.
+
+
+*ACTION_CHOICE
+*CHOICE
+        *PROTAG
+        <Take a seat>
+
+
+        *NARRATOR
+        You pull up a chair next to the mother and smile.
+
+
+        *LOVE: 1
+
+
+        *BIGTEX
+<Whispering> It’s good practice to sit down so you don’t look like you are in a rush.
+*END_CHOICE
+*CHOICE
+*PROTAG
+        <Stand up straight>
+
+
+*NARRATOR
+You stiffen up your back and stand up straight, demonstrating your best posture.
+
+
+        *BIGTEX
+<Whispering> This isn’t the military, get off yer high horse and take a seat. You’re making them uncomfortable. 
+
+
+*NARRATOR
+You take Big Tex’s advice, loosen up and sit down next to the mother.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+//*NARRATOR
+//Ms. Harris: How did it go doctor? Is Billy going to be okay?
+*STEPHANIE
+How did it go doctor? Is Billy going to be okay?
+
+
+*ACTION_CHOICE
+*CHOICE
+        *PROTAG
+        Yes, he’ll make a full recovery.
+
+
+        //*NARRATOR
+        //Ms. Harris: Thank you. That puts my mind at ease.
+        *STEPHANIE
+Thank you. That puts my mind at ease.
+
+
+        *LOVE: 1
+
+
+*NARRATOR
+Big Tex closes his eyes, smiles and nods his head.
+*END_CHOICE
+*CHOICE
+        *PROTAG
+        Billy is a tough cookie. He’ll be alright.
+
+
+        *BIGTEX
+<Whispering> It’s fine to get more casual as the conversation goes on, but be sure to ease your patient’s worries first.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+Big Tex looks over at you and gives you a look that says, “Well, what’s next?”
+
+
+*ACTION_CHOICE:2
+*CHOICE
+        *PROTAG
+        Got any plans this weekend? 
+
+
+        //*NARRATOR
+//Ms. Harris: I think we’ll be staying in, watching some movies on the couch until Billy is recovered. 
+
+
+*STEPHANIE
+I think we’ll be staying in, watching some movies on the couch until Billy is recovered. 
+
+
+*LOVE: 1
+
+
+*BIGTEX
+<Whispering> It's good to mix in some small talk to keep your patients’ families engaged. Don’t forget to give them instructions for discharge.
+*END_CHOICE
+*CHOICE
+        *PROTAG
+        Billy will need to take it easy for a while.
+
+
+        *PROTAG
+No strenuous activity. No heavy lifting. It’ll take about two months to make a full recovery. We will be prescribing some medication for the pain as well.
+
+
+//*NARRATOR
+//Ms. Harris: Thank you. I think we will need to take a break from sports for a little while.
+
+
+*STEPHANIE
+Thank you. I think we will need to take a break from sports for a little while.
+
+
+*BREAK
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+//*NARRATOR
+//Ms. Harris: I don’t think we’ll be able to make it to your show this weekend, Big Tex.
+
+
+*STEPHANIE
+I don’t think we’ll be able to make it to your show this weekend, Big Tex.
+
+
+*PROTAG, confused
+(Show this weekend?)
+
+
+*BIGTEX, blush
+Oh gosh, don’t worry none ‘bout that. Just don’t forget about me now when Billy is 100%. Y'all take care now, y’hear?
+
+
+*PROTAG, neutral
+
+
+*NARRATOR
+You finish up your consultation and leave with Big Tex.
+
+
+*PROTAG
+Ms. Harris said something about a show this weekend?
+
+
+*BIGTEX, embarrassed
+I wouldn’t call it a show, necessarily. I sometimes do acoustic open mics down at The Crow’s Nest.
+
+
+*ACTION_CHOICE
+*CHOICE
+        *PROTAG
+        That sounds fun. Could I come?
+
+
+*LOVE: 2
+
+
+*BIGTEX, embarrassed
+Aww shucks, you don’t gotta flatter me like that.
+*END_CHOICE
+*CHOICE
+        *PROTAG
+        What kind of music is it?
+
+
+        *BIGTEX, embarrassed
+It's just some old folk and country tunes. Nothing special.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+You hear a mechanical buzz and Big Tex pauses to check his holopad.
+
+
+*BIGTEX, happy
+Well, it looks like it's about time to hit the ol’ dusty trail…
+
+
+*BIGTEX, winking
+You know how to reach me.
+
+
+*END_CUTSCENE

@@ -1,0 +1,204 @@
+//ANNABEL / EPISODE 2 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE:
+*SUBTITLE: Episode 2
+*LOVE_FOCUS: ANNABEL
+*BG: hospital_hallway
+*BGM: chill_morning
+
+
+*NARRATOR
+While strolling through the hallway, your holopad’s alarm goes off: you are needed in the Veterinary ER right away! 
+
+
+You run quickly to the operating room, running into Annabel along the way.
+
+
+*ANNABEL,4
+PROTAG! I was just looking for you.
+
+
+*PROTAG,2
+What’s going on?
+
+
+*ANNABEL
+There was a big car collision this morning and a cat happened to be in the middle of it. No time to waste: meet me in pre-op and get ready to operate.
+
+
+*ANNABEL, leave
+
+
+*PROTAG
+This doesn’t sound good.
+
+
+*END_CUTSCENE
+
+
+
+
+*PREOP
+*BG: hospital_operatingroom
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*PROTAG, 4
+*ANNABEL, 2
+Our patient today is Tardar Sauce, a mixed breed, 7-year old cat.
+
+
+*NARRATOR
+The little cat sits on the operating table. She has large, rather goofy eyes and a droopy mouth appearing as a big frown.
+
+
+*PROTAG
+She sure looks grumpy!
+
+
+*ANNABEL
+I mean you would be too if you were in the middle of a car accident, hon!
+
+
+*EDGAR
+<SCREECH!>
+
+
+*ANNABEL
+Yes, Edgar, we’re wasting time. Tardar Sauce is in critical condition, so we need to work quickly. 
+
+
+Be sure to monitor her vitals closely during this operation, PROTAG.
+
+
+*PROTAG
+Understood. Let’s get started.
+
+
+*END_PREOP
+
+
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: operation_a
+*TOOL_TIPS: ANNABEL
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Tardar Sauce
+*VITALS: 40,30
+*PHASE: cat_chest_01
+        *WOUND_CUT_LARGE, 1
+        *WOUND_GLASS, 3
+*WOUND_CUT_SMALL, 4
+
+
+*ANNABEL
+There’s a lotta’ foreign objects that must be removed. Be careful: she’s in critical condition.
+*END_PHASE
+*PHASE
+*DEFIBRILLATOR
+
+
+        *ANNABEL
+        Alright, this area appears to be clear. Let’s move on.
+
+
+        *EDGAR
+        <SCREECH!>
+
+
+        *PROTAG
+        What’s wrong?
+
+
+        *ANNABEL
+        I-I think Tartar Sauce’s pulse is dropping!
+
+
+        *PROTAG
+Oh no! She’s going into cardiac arrest. Might be from shock.
+
+
+        *ANNABEL
+Doesn’t matter why right now. You need to use the Defibrillator, and fast!
+*END_PHASE
+*PHASE
+        *ANNABEL
+        (Whew!) I think we’re in the clear.
+
+
+*PROTAG
+...for now.
+*END_PHASE
+*PHASE: cat_leg
+        *WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 3
+*WOUND_CUT_SMALL, 3
+
+
+*ANNABEL
+X-rays show that the leg sustained serious injuries and was broken. 
+
+
+If it was any worse, we may have needed to perform an amputation, but we can repair it.
+
+
+//future mechanic: fabricate new bones
+
+
+*PROTAG
+First thing’s first: we gotta remove the foreign objects before surgery.
+*END_PHASE
+*PHASE
+*SCALPEL
+
+
+*ANNABEL
+We’ll need to open up the leg, replace the shattered bone and then put the leg into a cast.
+*END_PHASE
+*PHASE: cat_leg_internal
+        *SPAWNER_HEMORRHAGE
+*BROKEN_CAT_LEG
+
+
+        *ANNABEL
+        Be sure to clean up the blood pools as you repair the leg.
+
+
+        *EDGAR
+        <SCREECH!>
+
+
+        *ANNABEL
+        No, sorry, Edgar, you cannot help. You don’t have hands, hon.
+
+
+        *EDGAR
+        <cawww…>
+*END_PHASE
+*PHASE
+        *PROTAG
+        Let’s sew up the leg and put it in a cast.
+*END_PHASE
+*PHASE: cat_leg
+        *SUTURE
+*END_PHASE
+*PHASE
+*BROKEN_CAT_LEG_CAST
+*END_PHASE
+*PHASE
+        *ANNABEL
+Looks like Tardar Sauce is gonna pull through. Thank you, PROTAG.
+*END_PHASE
+
+
+*END_PATIENT
+*END_OPERATION

@@ -1,0 +1,95 @@
+*TOOLTIP: SCALPEL
+*DEFAULT
+*1: We need to open up the patient. Use MEDIGEL to disinfect the area.
+*2: Use the SCALPEL to create an incision. Be sure to cut in a straight line. 
+*END_TOOLTIP
+
+*TOOLTIP: SUTURE
+*DEFAULT
+	*1: Use the SUTURES and draw a zig-zag line across the incision.
+	*2: Apply a BANDAGE over the sutures.
+*3: Use MEDIGEL to secure the bandage and begin the healing process.
+*END_TOOLTIP
+
+*TOOLTIP: DEFIBRILLATOR
+*DEFAULT
+*1: We need to use the DEFIBRILLATOR! Timing is key: you need to hit the button when it reaches the center marker.
+*END_TOOLTIP
+
+*TOOLTIP: SYRINGE
+*DEFAULT
+	*1: Use the SYRINGE to inject the stabilizing agent.
+*END_TOOLTIP
+
+*TOOLTIP: WOUND_GLASS
+*DEFAULT
+*1: Remove the glass with FORCEPS and place the glass on the tray.
+*2: Use MEDIGEL to heal the open wound left by the glass.
+*END_TOOLTIP
+
+*TOOLTIP: HEMORRHAGE
+*DEFAULT
+	*1: Use the SUCTION tool to remove pooling blood.
+*END_TOOLTIP
+
+*TOOLTIP: SPAWNER_HEMORRHAGE
+*DEFAULT
+	*1: Use the SUCTION tool to remove pooling blood.
+*END_TOOLTIP
+
+*TOOLTIP: ULCER_LARGE
+*DEFAULT
+*1: Use MEDIGEL to sterilize the large ulcer and prepare it for extraction.
+*2: Carefully cut around the ulcer with the SCALPEL.
+*3: Remove the ulcer with the FORCEPS and place it on the tray.
+*4: Place a BANDAGE on the open wound where the ulcer was.
+*5: Secure the bandage with MEDIGEL.
+*END_TOOLTIP
+
+*TOOLTIP: ULCER_SMALL
+*DEFAULT
+	*1: Use MEDIGEL to heal small ulcers.
+*END_TOOLTIP
+
+*TOOLTIP: WOUND_CUT_LARGE
+*DEFAULT
+*1: Use the SUTURES and draw a zig-zag line across the cut to seal it.
+*END_TOOLTIP
+
+*TOOLTIP: WOUND_CUT_SMALL
+*DEFAULT
+	*1: Use MEDIGEL to heal small cuts.
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_ARM
+*DEFAULT
+	*1:
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_RIBS
+*DEFAULT
+*1: Use FORCEPS to pick up the broken bone fragments and place them in the tray.
+*2: Use the FORCEPS to place the bones back to where they belong.
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_LEG_BONE_CAST
+*DEFAULT
+*1: Use the BANDAGE to wrap the leg up in a cast.
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_ARM_BONE_CAST
+*DEFAULT
+*1: Use the BANDAGE to wrap the arm up in a cast.
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_CAT_LEG
+*DEFAULT
+*1: Use FORCEPS to pick up the broken bone fragments and place them in the tray.
+*2: Use the FORCEPS to place the bones back to where they belong.
+*END_TOOLTIP
+
+*TOOLTIP: BROKEN_CAT_LEG_CAST
+*DEFAULT
+*1: Use the BANDAGE to wrap the leg up in a cast.
+*END_TOOLTIP
+

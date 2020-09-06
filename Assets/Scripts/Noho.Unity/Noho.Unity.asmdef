@@ -1,0 +1,25 @@
+{
+    "name": "Noho.Unity",
+    "references": [
+        "GUID:c3f42c7799f99427b968fd4e185da136",
+        "GUID:ad340b9cde00446788c2cc722be2f72e",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:e1110472e972c4d2f83eff91871616ee",
+        "GUID:b395b3d6e584848aa97917e53a5dab45",
+        "GUID:92bb6732b8da74be3a73718e239eb4e2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Noho.Configs.dll",
+        "Noho.Parsing.dll",
+        "ZEngine.Core.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

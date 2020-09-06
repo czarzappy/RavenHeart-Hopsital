@@ -1,0 +1,508 @@
+//EPISODE Intro 1-1 draft
+//written by JT Radzai
+
+
+//EPISODE 1-1: welcome to ravenheart hospital
+*CUTSCENE
+*TITLE: Episode 1-1
+*SUBTITLE: Medical Breakthroughs
+*BG: hospital_outside
+*BGM: chill_morning
+
+
+*NARRATOR
+Ravenheart Hospital, Charm City
+
+
+Regarded as one of the greatest, if not the greatest, hospitals in the world.
+
+
+As you walk up the steps, you are taken aback by the hospital’s magnificence.
+
+
+The tall columns bring to mind the importance of the medical profession and those who came before you.
+
+
+Your small reflection in the large glass windows remind you that you are but one of many who help save lives every day.
+
+
+You know deep down that a hospital is a place of healing, but its appearance and legacy are still intimidating...
+
+
+Especially for your first day on the job.
+
+
+A woman approaches you with a swift stride.
+
+
+*HOLIDAY, 4
+Welcome to Ravenheart Hospital.
+
+
+I’m Dr. Holiday, the Director of Operations here at Ravenheart.
+And you are?
+
+
+//Character creator
+
+
+*PROTAG, 2
+I’m PROTAG.
+
+
+*HOLIDAY, smiling
+Ah, so you are the new recruit.
+Good to meet you, PROTAG.
+
+
+*NARRATOR
+Dr. Holiday extends her hand.
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+<Light handshake>
+
+
+*NARRATOR
+Your hand is like a wet pinata in the director’s firm, yet controlled, grip.
+
+
+*HOLIDAY, unimpressed
+We have a few formalities to cover before you begin working with patients. 
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+<Firm handshake>
+
+
+*NARRATOR
+You do your best to shake the director’s hand firmly, but not too hard.
+
+
+Her hands are surprisingly strong and tough, and her handshake is firm and controlled. 
+
+
+*HOLIDAY, neutral
+We have a few formalities to cover before you begin working with patients. 
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Salute>
+
+
+                *NARRATOR
+                You salute Dr. Holiday and stand at attention.
+                
+                Dr. Holiday rolls her eyes.
+
+
+                *HOLIDAY, unimpressed
+At ease, soldier. We have a few formalities to cover before you begin working with patients. 
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+Her steady gaze meets yours. 
+
+
+*HOLIDAY
+Why did you decide to become a Doctor?
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG, calm
+To help people.
+
+
+*NARRATOR
+Dr. Holiday closes her eyes and nods in agreement.
+
+
+*PROTAG
+No matter what happens in the world, we’ll always have injuries and sickness. Nurses and Doctors will always be needed.
+
+
+When you are in the operating room, the patient’s life is in your hands. It's a big responsibility. I want to do my part.
+        *END_CHOICE
+*CHOICE
+        *PROTAG, neutral
+        The challenge.
+
+
+        *HOLIDAY, curious
+        Oh? Do tell.
+
+
+*PROTAG, serious
+The human body is a complex, living machine. You have to work quickly and accurately not just to heal but also to avoid harm. Careless mistakes can kill.
+
+
+*HOLIDAY
+You sound like an engineer. Don’t forget that these patients are people and require an open heart as well as a calculated mind. 
+*END_CHOICE
+*CHOICE
+        *PROTAG, laughing
+                The paycheck!
+
+
+                *HOLIDAY, angry
+I’d suggest stand up comedy for a career, except you aren’t funny.
+
+
+                *PROTAG, nervous
+                What’s wrong with wanting to make a comfortable living? 
+
+
+                *HOLIDAY, neutral
+Nothing. Honestly, I don’t care what your motives are. I want the best talent and I expect results. 
+
+
+I expect you to do the work quickly and effectively. I can live with a transactional working relationship, but your co-workers might not be as open minded as I am.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*HOLIDAY
+Pardon the monotony of formalities.
+
+
+*NARRATOR
+Dr. Holiday hits a few buttons on her holopad and a holo-projection of your working agreement and contract appears.
+
+
+*NARRATOR
+You fill out the holo-projection with all your important legal information and get your hand scanned for access to the building.
+
+
+When you finish up the work, an ID with your name, picture and other details pops out of a little slot on the bottom of the holopad.
+
+
+Dr. Holiday hands it to you and you attach it to your coat.
+
+
+*HOLIDAY
+I have high expectations of you, PROTAG.
+Are you ready for your first operation?
+
+
+*END_CUTSCENE
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 1-2: PRE-OP
+*PREOP
+*BG: hospital_operatingroom
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*PROTAG, 2
+*HOLIDAY, 4
+Our patient today is Frank Smith. He is suffering from stomach tumors which will need to be excised and sterilized. 
+
+
+PROTAG, you will be leading this operation. I will monitor your work and will step in if necessary. 
+
+
+Removing these tumors is a fairly simple procedure. First, sterilize the area to prevent infection, cut around the tumor and remove it. Patch it with a BANDAGE and seal it with MEDIGEL. 
+
+
+Any questions before we get started?
+
+
+*ACTION_CHOICE:4
+        *CHOICE
+                *PROTAG
+                Does the patient have any other underlying conditions?
+
+
+                *HOLIDAY
+We checked and it doesn’t appear that he has any other conditions that would affect this operation. 
+
+
+Any other questions before we get started?
+        *END_CHOICE
+*CHOICE
+*PROTAG, curious
+Do we know if the tumors are malignant?
+
+
+*HOLIDAY
+We ran several diagnostic tests and fortunately it appears that they are benign. 
+
+
+*PROTAG
+Better safe than sorry, I suppose.
+
+
+*HOLIDAY
+Any other questions before we get started?
+        *END_CHOICE
+*CHOICE
+*PROTAG
+What’s MEDIGEL?
+
+
+*HOLIDAY
+It's a new bio-tech tool being developed here at RavenHeart. It acts as a disinfectant as well as a synthetic membrane which promotes cell growth.
+
+
+Think of it like first aid glue. It can heal small wounds instantly and can be used to secure synthetic bandages. It’s pretty amazing.
+
+
+*PROTAG
+Wow. I wonder what else is being developed here…
+
+
+*HOLIDAY
+You’ll find out soon enough, but right now I want you to be focused on the operation.
+
+
+Any other questions before we get started?
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                No, I’m ready, Dr. Holiday.
+
+
+                *BREAK
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*HOLIDAY
+Good. Prepare the safety checklist and scrub up for the OR.
+
+
+*END_PREOP
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 1-3: Surgery Operation draft
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: operation_a
+*TOOL_TIPS: HOLIDAY
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Frank S.
+*VITALS: 90,80
+*PHASE: chest_02
+*SCALPEL: 1
+
+
+*HOLIDAY
+Let’s begin the operation. Be sure to cut in a straight line. We don’t want any unnecessary scarring.
+*END_PHASE
+*PHASE
+        *SYRINGE: 1
+        *HOLIDAY
+Be sure to keep an eye on your patient’s vitals. Be mindful that surgical procedures will put stress on the body. 
+*END_PHASE
+*PHASE
+        *HOLIDAY
+        Let’s proceed.
+*END_PHASE
+*PHASE: stomach
+*ULCER_LARGE: 3
+        
+        *PROTAG
+We’re fortunate that these tumors are benign since they have grown to be quite large.
+
+
+        *HOLIDAY, distressed
+I must admit these tumors look much larger in person than on the X-Rays. 
+*END_PHASE
+*PHASE
+        *HOLIDAY
+Good work, PROTAG. All the tumors have been safely removed.
+*END_PHASE
+*PHASE: chest
+        *SUTURE
+        *HOLIDAY
+PROTAG, are you ready to close up the patient? Let’s put your stitching practice to work.
+*END_PHASE
+*PHASE
+        *HOLIDAY
+Operation complete. You handled yourself well today, but don’t let it get to your head.
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+
+
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 1-4: new faces
+*CUTSCENE
+*BG: hospital_hallway
+*BGM: chill_afternoon
+
+
+*PROTAG, 4
+*HOLIDAY, 2
+You performed well today, PROTAG. 
+
+
+*PROTAG
+Thank you, Dr. Holiday. 
+
+
+*HOLIDAY
+I think it's time you met a few of our staff. RavenHeart Hospital recently added an animal trauma care wing. This is Dr. Annabel Lee, she is our emergency veterinary surgeon.
+
+
+*PROTAG, 2
+*HOLIDAY, 1
+*ANNABEL, 4
+
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG
+Nice to meet you, Dr. Lee.
+
+
+*ANNABEL
+No need for the formalities, PROTAG. Please, call me Annabel. This is my friend, Edgar Allen Crow.
+
+
+//*EDGAR
+*NARRATOR
+Edgar unleashes a blood curdling screech.
+        *END_CHOICE
+        *CHOICE
+*PROTAG
+Is that a… bird?
+
+
+*ANNABEL
+Yep! This is Edgar Allen Crow. Say “Hi,” Edgar!
+
+
+//*EDGAR
+*NARRATOR
+Edgar unleashes a blood curdling screech.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NEW_CHARACTER_STORYLINE: ANNABEL
+
+
+*NARRATOR
+You hear heavy footsteps and a jangle of metal spurs echo through the hallway.
+
+
+*HOLIDAY
+This is Dr. Dallas. He’s our pediatric surgeon.
+
+
+*BIGTEX, 5
+Howdy, partner. They call me Big Tex!
+
+
+*BIGTEX, winking
+AND YOU can call me Big Tex!
+
+
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG
+Howdy, Big Tex!
+
+
+*BIGTEX
+Yeehaw!
+        *END_CHOICE
+*CHOICE
+*PROTAG
+I’m PROTAG AND YOU can call me PROTAG!
+
+
+*BIGTEX
+Howdy, PROTAG!
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NEW_CHARACTER_STORYLINE: BIGTEX
+
+
+*NARRATOR
+“Aren’t you missing someone, doc?”
+
+
+A lean man struts up to you.
+
+
+*DANTE, 3
+
+
+*HOLIDAY
+This is Dante Hachiroku, he is our top EMS Paramedic. 
+
+
+*DANTE
+So you’re the new kid? Welcome to our happy little family. 
+
+
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG
+Nice to meet you, too.
+
+
+*DANTE
+...
+        *END_CHOICE
+*CHOICE
+*PROTAG
+Kid? I’m a Doctor.
+
+
+*DANTE
+Congratulations on your piece of paper. You can use it to wipe the blood off my jacket when we go into the field.
+
+
+*HOLIDAY
+Simmer down, Dante.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NEW_CHARACTER_STORYLINE: DANTE
+
+
+*HOLIDAY
+PROTAG, these doctors are your colleagues but also your superiors. I want you to work with them and learn as much as you can from each of them. They are experts in their respective fields.
+
+
+*PROTAG
+I will do my best.
+
+
+*HOLIDAY
+Good. Everyone is dismissed.
+
+
+*END_CUTSCENE

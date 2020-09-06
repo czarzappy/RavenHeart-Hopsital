@@ -1,0 +1,27 @@
+{
+    "Id": 6,
+    "DevName": "EDGAR",
+    "RawName": "Edgar",
+    "RawRole": "Raven",
+    "CharacterNameBackgroundColor": {
+        "r": 0.6117647,
+        "g": 0.5333334,
+        "b": 1,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Annabel-v2"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false,
+    "FaceSpritePath":
+    {
+        "Path": ["Annabel-v2-face"]
+    }
+}

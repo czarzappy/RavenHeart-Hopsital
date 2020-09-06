@@ -1,0 +1,22 @@
+{
+    "Id": 10,
+    "DevName": "WILLIAM",
+    "RawName": "Billy",
+    "CharacterNameBackgroundColor": {
+        "r": 1.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "Size": 100,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Kid"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false
+}

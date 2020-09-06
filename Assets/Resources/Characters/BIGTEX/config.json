@@ -1,0 +1,33 @@
+{
+    "Id": 5,
+    "DevName": "BIGTEX",
+    "RawName": "Big Tex",
+    "RawRole": "PEDIATRICS",
+    "CharacterNameBackgroundColor": {
+        "r": 0.9843137,
+        "g": 0.772549,
+        "b": 0.1921569,
+        "a": 1.0
+    },
+    "Size": 1,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Big_Tex-v2"
+            ]
+        },
+        {
+            "ExpressionDevName": "holo",
+            "SpritePath": [
+                "Big_Tex_holo"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": true,
+    "FaceSpritePath":
+    {
+        "Path": ["Big_Tex_face-v2"]
+    }
+}

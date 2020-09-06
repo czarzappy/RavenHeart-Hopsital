@@ -1,0 +1,652 @@
+//ANNABEL / EPISODE 1 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE:
+*SUBTITLE: Episode 1
+*LOVE_FOCUS: ANNABEL
+*BG: hospital_outside
+*BGM: chill_morning
+
+
+*PROTAG, 4
+
+
+*NARRATOR
+It's a beautiful morning so you decide to take a stroll through the flower garden in the front of RavenHeart Hospital.
+
+
+Bees and other insects buzz and flutter around the colorful flowers and vegetation. The way the garden dances and sways in the cool breeze relaxes you.
+
+
+The peaceful silence is broken as a puppy runs past you and out of sight into the garden’s bushes. A familiar face comes up the path, panting from exhaustion.
+
+
+*ANNABEL, 2
+MR. PEANUTBUTTER! MR. PEANUTBUTTER!! COME BACK! 
+
+
+Hey, PROTAG… Did you… see… a pomeranian… come this way?
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                They went that-a-way!
+
+
+                *ANNABEL
+Oh, no… It’s going to take forever to find ‘em! Can you help me catch him?
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Mr. Peanutbutter?
+
+
+*ANNABEL
+That puppy is scheduled to have surgery this afternoon but escaped during transport. Can you help me catch him?
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                Sure! How can I help?
+
+
+                *LOVE: 1
+
+
+                *ANNABEL
+Great. We need to figure out a strategy to catch this doggo so we can help him. Any ideas?
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                I’m kind of busy...
+
+
+*ANNABEL
+Are you serious!? You know that you are scheduled to perform the operation on this puppy, right?
+
+
+*PROTAG
+I guess I forgot…
+
+
+*ANNABEL
+It sounds like you got no choice but to help me, so do you have any ideas on how we can catch him?
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                Let’s stick together. Strength in numbers.
+
+
+                *ANNABEL
+                Sounds like a solid plan.
+
+
+                *EDGAR
+                <SCREECH>
+
+
+                *PROTAG, leave
+                *ANNABEL, leave
+
+
+*NARRATOR
+You, Annabel and Edgar start walking through the well-manicured flora. After ten minutes of searching high and low, you find tracks left behind, but Mr. Peanutbutter remains elusive.
+                
+                *ANNABEL, 2
+The pupperino is nowhere to be found… Perhaps we should try another plan?
+
+
+*PROTAG, 4
+Alright, let’s split up.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Let’s split up. We’ll cover more ground.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*ANNABEL
+I’ll check over here and you go over there. If you find Mr. PB, don’t scare ‘em, just try to lead him towards the center and we’ll catch ‘em for sure.
+
+
+*PROTAG
+Sounds good.
+
+
+*ANNABEL, leave
+
+
+*NARRATOR
+You and Annabel split up and start walking through the garden. After a few minutes you hear Annabel shout out to you.
+
+
+“Hey! PROTAG! I found him and he’s coming your way! Get ready!”
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                <Get into a defensive stance like a linebacker>
+
+
+                *NARRATOR
+You bend your knees and get into a wide, defensive stance, ready to grab the puppy at  a moment’s notice. 
+
+
+You hear the rustling of leaves, the soft pitter-patter of little paws and the excited panting of a good boy approach.
+
+
+And then suddenly…
+
+
+A fluffy puppy jumps out!
+
+
+You grab the puppy and cuddle it in your arms. It licks your face enthusiastically. Annabel follows closely behind.
+
+
+*ANNABEL,2
+
+
+*LOVE: 1
+
+
+*ANNABEL
+Amazing! You’re a natural.
+        *END_CHOICE
+*CHOICE
+                *PROTAG
+                <Hide and jump out at the last second>
+
+
+                *NARRATOR
+You crouch behind the largest fern and poise yourself.
+
+
+You hear the rustling of leaves, the soft pitter-patter of little paws and the excited panting of a good boy approach.
+
+
+And then suddenly…
+
+
+A fluffy puppy jumps out!
+
+
+You brace yourself and then jump out to grab Mr. Peanutbutter. It easy slips out of reach as you fall face first into the ground.
+
+
+As you get up and brush yourself off and see Annabel holding the puppy in her arms.
+
+
+*ANNABEL, 2
+Sleeping on the job?
+
+
+*PROTAG
+I’m not quite ready for a dirt nap.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                <Pretend to be a dog and trick the puppy>
+
+
+                *NARRATOR
+You get down on all fours and wiggle your hips as if you had a tail.
+
+
+You hear the rustling of leaves, the soft pitter-patter of little paws and the excited panting of a good boy approach.
+
+
+And then suddenly…
+
+
+A fluffy puppy jumps out and pounces on you, covering your face with wet kisses.
+
+
+*ANNABEL, 2
+*LOVE: 1
+*ANNABEL
+Looks like Mr. Peanutbutter caught you!
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*PROTAG
+What’s wrong with the puppy? He seems perfectly fine.
+
+
+*ANNABEL
+I’ll explain in pre-op. Let’s get Mr. Peanutbutter to the OR right away!
+
+
+*EDGAR
+<SCREECH!>
+
+
+*END_CUTSCENE
+
+
+
+
+*PREOP
+*BG: hospital_operatingroom
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*PROTAG, 4
+So what’s the situation?
+
+
+*ANNABEL, 2
+Our patient today is Mr. Peanutbutter, a one year old pomeranian. 
+
+
+Mr. Peanutbutter was brought in for swallowing some BUILDO BRICKS this morning. He’s simply too small to pass them so we will need to perform surgery to remove them.
+
+
+*PROTAG
+I guess that explains why Mr. Peanutbutter seemed perfectly healthy this morning.
+
+
+*EDGAR
+<SCREECH!>
+
+
+*ANNABEL
+Yes, Edgar, thankfully he isn’t in any pain, but this will cause discomfort and eventually lead to serious problems pretty quickly, as you can imagine.
+
+
+*PROTAG
+Understood. Let’s work quickly. Prepare anesthesia and the safety checklist!
+
+
+*END_PREOP
+
+
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: operation_a
+*TOOL_TIPS: ANNABEL
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Mr. Peanutbutter
+*VITALS: 30,30
+*PHASE: dog_chest_01
+*SCALPEL: 1
+
+
+*ANNABEL
+Is everyone ready to begin the operation?
+
+
+*PROTAG
+Yes. Let’s get started.
+
+
+*EDGAR
+<SCREECH!>
+*END_PHASE
+*PHASE: dog_stomach_1
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 2
+*BUILDO_BRICKS: 5[a]
+        *WOUND_CUT_SMALL: 3
+
+
+        *ANNABEL
+It appears that the BUILDO BRICKS have caused a few cuts. Let’s make sure to clear those up after removing the bricks.
+*END_PHASE
+*PHASE
+        *ANNABEL
+X-Rays revealed that there were other BUILDO BRICKS further down in the intestinal tract. 
+*END_PHASE
+*PHASE: dog_stomach_2
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 2
+*BUILDO_BRICKS: 5
+        *WOUND_CUT_SMALL: 5
+        *WOUND_CUT_LARGE: 2
+
+
+        *ANNABEL
+It looks like the plastic has left some deep cuts. Be sure to suture those up.
+*END_PHASE
+/*
+*PHASE: dog_back
+        *PET_MICROCHIP[b]
+
+
+        *ANNABEL
+Before we finish up, we should install a Pet Microchip into Mr. Peanutbutter as standard procedure.
+
+
+*PROTAG
+Standard procedure? What does the microchip do?
+
+
+*ANNABEL
+The Pet Microchips act as an ID for pets in case they get lost. It became standard veterinary practice several years back, although ours are a bit more advanced.
+
+
+*PROTAG
+How so?
+
+
+*ANNABEL
+Our microchips provide an ID for the owner of the pet as well as monitor the pet’s vitals to help with routine check ups. 
+
+
+While it's a little more involved than a basic microchipping procedure, it helps a lot in the long run. I even got Edgar chipped!
+
+
+*PROTAG
+I’m sure he appreciates it.
+
+
+*EDGAR
+<SCREECH!>
+*END_PHASE
+*/
+*PHASE: dog_chest_01
+        *SUTURE
+
+
+        *ANNABEL
+        Suture up the incision to complete the operation.
+*END_PHASE
+*END_PATIENT
+*END_OPERATION
+
+
+
+
+*CUTSCENE
+*BG: hospital_hallway
+*BGM: chill_afternoon
+
+
+*NARRATOR
+After the operation, you meet with Annabel and Edgar in the hallway.
+
+
+*PROTAG, 2
+*ANNABEL,4
+Good work, PROTAG! Hopefully Mr. Peanutbutter will only eat doggie food from now on.
+
+
+*EDGAR
+<SCREECH!>
+
+
+*ANNABEL
+I agree, Edgar! Let’s go!
+
+
+*PROTAG
+Wait. What did Edgar say?
+
+
+*ANNABEL
+He said, “Speaking of food, I’m starving!”
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                Sounds good to me. I’m quite famished.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+You speak… bird?
+
+
+*ANNABEL
+It’s “Crow-ation” thank-you-very-much.
+
+
+*PROTAG
+(Croatian?)
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*ANNABEL
+Let’s go to the Crow’s Nest. It's Edgar’s favorite! They also have  solid vegetarian options.
+
+
+*EDGAR
+<SCREECH!>
+
+
+*END_CUTSCENE
+
+
+
+
+*CUTSCENE
+*BG: charmcity_street
+*BGM: chill_evening
+
+
+*NARRATOR
+You, Annabel and Edgar walk to the Crow’s Nest, a local pub. It will take a few minutes to get there so you have a chance to ask a few questions.
+
+
+*PROTAG, 4
+*ANNABEL, 2
+
+
+*ACTION_CHOICE: 3
+*CHOICE
+*PROTAG
+What do you like most about being a Veterinarian?
+
+
+                *ANNABEL
+I just love animals and it's the best job for me to directly help animals that need urgent care.
+
+
+*ACTION_CHOICE
+*CHOICE
+        *PROTAG
+        What’s the most challenging part of the job?
+
+
+        *ANNABEL
+Well, emotionally, it's definitely difficult to see injured animals and when you lose a patient. I’m sure any other surgeon would relate to that.
+
+
+Mechanically speaking, it's challenging since the anatomy of each animal is different and each animal requires different treatments and medications.
+
+
+*PROTAG
+Makes sense to me.
+*END_CHOICE
+        *CHOICE
+*PROTAG
+It must be difficult seeing so many injured and sick animals every day.
+
+
+*ANNABEL
+It is difficult but I know these things happen regardless if I see it happen in person or not. 
+
+
+If these terrible things are going to happen, I want to do something about it. It’s our responsibility not to ignore the challenging parts of life: we gotta face it head on!
+
+
+*PROTAG
+That’s… deep.
+
+
+*ANNABEL
+Haha, sorry. You asked a pretty deep question.
+*END_CHOICE
+*END_ACTION_CHOICE
+*END_CHOICE
+*CHOICE
+*PROTAG
+What is your favorite kind of food?
+
+
+*LOVE: 1
+
+
+*ANNABEL
+Hmm… Probably my mother’s vegetable biryani. Or maybe her tandoori paneer tikka… She’s an excellent cook: very thorough.
+
+
+She makes her own sauces, mixes her own spices, grows most of the vegetables in her own garden. It's kind of intimidating. I would describe the food as intense to prepare as is the spicy flavor.
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                Did you learn to cook from her?
+
+
+                *ANNABEL
+I tried for a long time, but I couldn’t keep up. She’s pretty particular about each step of the process and I couldn’t handle that.
+
+
+*PROTAG
+(Yikes!)
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Sounds delicious.
+
+
+                *ANNABEL
+Yep. The sauces are so spicy she might as well put hot lava on your plate. If you can get past that, it's delicious.
+
+
+Thinking about this is making me hungry: good thing we’re almost there!
+        *END_CHOICE
+*END_ACTION_CHOICE
+*END_CHOICE
+*CHOICE
+*PROTAG
+What is your favorite hobby?
+
+
+*LOVE: 1
+
+
+*ANNABEL
+I enjoy painting. I don’t think I’m very good at it but it's nice to paint landscapes or city skylines. I find it relaxing.
+
+
+Do you have any artistic skills or hobbies?
+
+
+*ACTION_CHOICE
+                        *CHOICE
+                                *PROTAG
+                                Nope. I can’t even color within the lines!
+
+
+                                *ANNABEL
+That’s okay. I think I just enjoy sitting outside with Edgar and getting some fresh air.
+                        *END_CHOICE
+*CHOICE
+                                *PROTAG
+                                I’ve painted a few happy trees in my day.
+        
+                                *ANNABEL
+Oh wow! I didn’t realize you were an artist. I’m honored, hehe.
+
+
+                                *LOVE: 1
+
+
+                                *NARRATOR
+                                Annabel giggles.
+                        *END_CHOICE
+                *END_ACTION_CHOICE
+*END_CHOICE
+*CHOICE
+*PROTAG
+Do you have a significant other?
+
+
+*LOVE: 1
+
+
+*ANNABEL
+Umm. I wasn’t expecting that. Umm… no, I’m single.
+
+
+*NARRATOR
+Annabel blushes and seems amused by the question.
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                <Wink!>
+        
+        *LOVE: 2
+        
+                *ANNABEL
+                PROTAG, you big goof!
+
+
+                *NARRATOR
+Annabel covers her face with one hand and playfully pushes you with her other.
+
+
+*EDGAR
+<SCREECH!>
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Sorry if that was too forward of me.
+
+
+*LOVE: 1
+
+
+                *ANNABEL
+                No, no, no. It's okay. I think that was cute.
+
+
+                *NARRATOR
+                Annabel winks at you.
+        *END_CHOICE
+*END_ACTION_CHOICE
+*END_CHOICE
+*END_ACTION_CHOICE
+*NARRATOR
+Annabel slows her pace as you approach a sign swinging in the breeze: “The Crow’s Nest.”
+
+
+*ANNABEL
+We’re here! I’m ready to munch some lunch!
+
+
+*EDGAR
+<SCREECH!>
+
+
+*END_CUTSCENE
+
+
+//how did you meet(?) Edgar?
+[a]should function like glass shards with a new art asset
+[b]I think this would be a solid addition to our procedures that we can use in every vet operation

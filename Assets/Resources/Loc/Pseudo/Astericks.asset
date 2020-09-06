@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c5a772734ff534ead78dbde7f49b97, type: 3}
+  m_Name: Astericks
+  m_EditorClassIdentifier: 
+  m_Identifier:
+    m_Code: en
+  m_Metadata:
+    m_Items: []
+  m_Methods:
+  - id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: CharacterSubstitutor, ns: UnityEngine.Localization.Pseudo, asm: Unity.Localization}
+      data:
+        m_SubstitutionMethod: 3
+        m_ListMode: 0
+        m_ReplacementsMap:
+        - original: 65
+          replacement: 42
+        - original: 66
+          replacement: 42
+        - original: 67
+          replacement: 42
+        - original: 68
+          replacement: 42
+        - original: 69
+          replacement: 42
+        - original: 70
+          replacement: 42
+        - original: 71
+          replacement: 42
+        - original: 72
+          replacement: 42
+        - original: 73
+          replacement: 42
+        - original: 74
+          replacement: 42
+        - original: 75
+          replacement: 42
+        - original: 76
+          replacement: 42
+        - original: 77
+          replacement: 42
+        - original: 78
+          replacement: 42
+        - original: 79
+          replacement: 42
+        - original: 80
+          replacement: 42
+        - original: 81
+          replacement: 42
+        - original: 82
+          replacement: 42
+        - original: 83
+          replacement: 42
+        - original: 84
+          replacement: 42
+        - original: 85
+          replacement: 42
+        - original: 86
+          replacement: 42
+        - original: 87
+          replacement: 42
+        - original: 88
+          replacement: 42
+        - original: 89
+          replacement: 42
+        - original: 90
+          replacement: 42
+        - original: 91
+          replacement: 42
+        - original: 92
+          replacement: 42
+        - original: 93
+          replacement: 42
+        - original: 94
+          replacement: 42
+        - original: 95
+          replacement: 42
+        - original: 96
+          replacement: 42
+        - original: 97
+          replacement: 42
+        - original: 98
+          replacement: 42
+        - original: 99
+          replacement: 42
+        - original: 100
+          replacement: 42
+        - original: 101
+          replacement: 42
+        - original: 102
+          replacement: 42
+        - original: 103
+          replacement: 42
+        - original: 104
+          replacement: 42
+        - original: 105
+          replacement: 42
+        - original: 106
+          replacement: 42
+        - original: 107
+          replacement: 42
+        - original: 108
+          replacement: 42
+        - original: 109
+          replacement: 42
+        - original: 110
+          replacement: 42
+        - original: 111
+          replacement: 42
+        - original: 112
+          replacement: 42
+        - original: 113
+          replacement: 42
+        - original: 114
+          replacement: 42
+        - original: 115
+          replacement: 42
+        - original: 116
+          replacement: 42
+        - original: 117
+          replacement: 42
+        - original: 118
+          replacement: 42
+        - original: 119
+          replacement: 42
+        - original: 120
+          replacement: 42
+        - original: 121
+          replacement: 42
+        - original: 122
+          replacement: 42
+        - original: 123
+          replacement: 42
+        - original: 124
+          replacement: 42
+        - original: 125
+          replacement: 42
+        - original: 126
+          replacement: 42
+        - original: 127
+          replacement: 0
+        m_ReplacementList: 5f00

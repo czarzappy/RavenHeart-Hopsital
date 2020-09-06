@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>dog_chest_1</Name>
+  <BgOffset>
+    <X>74</X>
+    <Y>33.672</Y>
+  </BgOffset>
+  <OverrideBgSize>
+    <X>973.724854</X>
+    <Y>667.344849</Y>
+  </OverrideBgSize>
+  <BgType>External</BgType>
+  <Entities>
+    <Entity>
+      <Tag>SCALPEL</Tag>
+      <Position>
+        <X>71</X>
+        <Y>38</Y>
+      </Position>
+      <Rotation>89.8</Rotation>
+    </Entity>
+    <Entity>
+      <Tag>SUTURE</Tag>
+      <Position>
+        <X>65</X>
+        <Y>45</Y>
+      </Position>
+      <Rotation>181.190414</Rotation>
+    </Entity>
+  </Entities>
+</Scene>

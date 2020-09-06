@@ -1,0 +1,22 @@
+{
+    "Id": 0,
+    "DevName": "PROTAG",
+    "CharacterNameBackgroundColor": {
+        "r": 0.5,
+        "g": 1.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Characters",
+                "ZJ"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false
+}

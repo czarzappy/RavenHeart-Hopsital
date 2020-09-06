@@ -1,0 +1,261 @@
+*PROCEDURE: SCALPEL
+*DAMAGE
+        *TICKS: 2 //take 1 damage every X ticks, 0.5 damage ever 1 tick
+        *FAILURE: 3 
+//future milestone: if you don’t cut all the nodes in a single go it fails
+*END_DAMAGE
+*SCORE
+*STEP: 5
+*FINISH: 20
+*END_SCORE
+*TOOLTIP
+     *DEFAULT
+*1: We need to open up the patient. Use MEDIGEL to disinfect the area.
+*2: Use the SCALPEL to create an incision. Be sure to cut in a straight line. 
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: SUTURE
+*DAMAGE
+*TICKS: 2
+        *FAILURE: 3
+*END_DAMAGE
+*SCORE
+        *FINISH: 30
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use the SUTURES and draw a zig-zag line across the incision.
+*2: Apply a BANDAGE over the sutures.
+*3: Use MEDIGEL to secure the bandage and begin the healing process.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: DEFIBRILLATOR
+*DAMAGE
+        *TICKS: 8
+        *FAILURE: 5
+*END_DAMAGE
+*SCORE
+        *FINISH: 50
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: We need to use the DEFIBRILLATOR! Timing is key: you need to hit the button when it reaches the center marker.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: SYRINGE
+*SCORE
+        *FINISH: 5
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: Use the SYRINGE to inject the stabilizing agent.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: WOUND_GLASS
+*DAMAGE
+        *TICKS: 4
+        *FAILURE: 3
+*END_DAMAGE
+*SCORE
+        *FINISH: 20
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Remove the glass with FORCEPS and place the glass on the tray.
+*2: Use MEDIGEL to heal the open wound left by the glass.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: HEMORRHAGE
+*DAMAGE
+        *TICKS: 8
+*END_DAMAGE
+*SCORE
+        *FINISH: 5
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: Use the SUCTION tool to remove pooling blood.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: SPAWNER_HEMORRHAGE
+*DAMAGE
+        *TICKS: 8
+*END_DAMAGE
+*SCORE
+        *FINISH: 5
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: Use the SUCTION tool to remove pooling blood.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: ULCER_LARGE
+*DAMAGE
+        *TICKS: 7
+        *FAILURE: 5
+*END_DAMAGE
+*SCORE
+*STEP: 10
+        *FINISH: 50
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use MEDIGEL to sterilize the large ulcer and prepare it for extraction.
+*2: Carefully cut around the ulcer with the SCALPEL.
+*3: Remove the ulcer with the FORCEPS and place it on the tray.
+*4: Place a BANDAGE on the open wound where the ulcer was.
+*5: Secure the bandage with MEDIGEL.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: ULCER_SMALL
+*DAMAGE
+        *TICKS: 8
+*END_DAMAGE
+*SCORE
+        *FINISH: 5
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: Use MEDIGEL to heal small ulcers.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: WOUND_CUT_LARGE
+*DAMAGE
+        *TICKS: 5
+*END_DAMAGE
+*SCORE
+        *FINISH: 15
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use the SUTURES and draw a zig-zag line across the cut to seal it.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: WOUND_CUT_SMALL
+*DAMAGE
+        *TICKS: 7
+*END_DAMAGE
+*SCORE
+        *FINISH: 5
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: Use MEDIGEL to heal small cuts.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_ARM
+*DAMAGE
+        *TICKS: 6
+*END_DAMAGE
+*SCORE
+        *FINISH: 25
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+        *1: NEEDS TOOLTIP
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_RIBS
+*DAMAGE
+        *TICKS: 8
+        *FAILURE: 5
+*END_DAMAGE
+*SCORE
+*STEP: 10
+*FINISH: 50
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use FORCEPS to pick up the broken bone fragments and place them in the tray.
+*2: Use the FORCEPS to place the bones back to where they belong.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_LEG_BONE_CAST
+*DAMAGE
+        *TICKS: 10
+        *FAILURE: 1
+*END_DAMAGE
+*SCORE
+*STEP: 15
+*FINISH: 30
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use the BANDAGE to wrap the leg up in a cast.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_ARM_BONE_CAST
+*DAMAGE
+        *TICKS: 10
+        *FAILURE: 1
+*END_DAMAGE
+*SCORE
+*STEP: 15
+*FINISH: 30
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use the BANDAGE to wrap the leg up in a cast.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_CAT_LEG
+*DAMAGE
+        *TICKS: 8
+        *FAILURE: 5
+*END_DAMAGE
+*SCORE
+*STEP: 10
+*FINISH: 50
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use FORCEPS to pick up the broken bone fragments and place them in the tray.
+*2: Use the FORCEPS to place the bones back to where they belong.
+*END_TOOLTIP
+*END_PROCEDURE
+
+
+*PROCEDURE: BROKEN_CAT_LEG_CAST
+*DAMAGE
+        *TICKS: 10
+        *FAILURE: 1
+*END_DAMAGE
+*SCORE
+*STEP: 15
+*FINISH: 30
+*END_SCORE
+*TOOLTIP
+*DEFAULT
+*1: Use the BANDAGE to wrap the leg up in a cast.
+*END_TOOLTIP
+*END_PROCEDURE

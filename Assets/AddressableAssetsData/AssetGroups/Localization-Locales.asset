@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Locales
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Locales
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0f5896a9d50d340779da869e64aeb767
+  m_SerializeEntries:
+  - m_GUID: 5dac2fbe1af2a450f8a179d952f8b465
+    m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    m_mainAssetType: UnityEngine.Localization.Locale, Unity.Localization, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: 7d77723cb1e724c35a71c7bda5818c80
+    m_Address: Astericks
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    m_mainAssetType: UnityEngine.Localization.Pseudo.PseudoLocale, Unity.Localization,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_GUID: d3a974e5358c3443a999ce36fba32fa9
+    m_Address: Pseudo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    m_mainAssetType: UnityEngine.Localization.Pseudo.PseudoLocale, Unity.Localization,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: ece0c3f37fe39498a9579fd75bb27078, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: da4e1e86f721d4664b2338d0749bf3b0, type: 2}
+    - {fileID: 11400000, guid: e5f960cfea810475da150ba1550eae5e, type: 2}

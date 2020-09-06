@@ -1,0 +1,21 @@
+{
+    "name": "Noho",
+    "references": [
+        "GUID:ad340b9cde00446788c2cc722be2f72e",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Noho.Configs.dll",
+        "Noho.Parsing.dll",
+        "ZEngine.Core.dll",
+        "ZEngine.Google.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

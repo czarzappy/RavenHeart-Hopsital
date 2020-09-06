@@ -1,0 +1,24 @@
+{
+    "Id": 9,
+    "DevName": "ZJ",
+    "RawName": "ZJ",
+    "RawRole": "NEUROLOGY",
+    "CharacterNameBackgroundColor": {
+        "r": 0.2980392,
+        "g": 0.8196079,
+        "b": 0.2156863,
+        "a": 1.0
+    },
+    "Size": 0,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "ZJ"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": true,
+    "IsAvailable": false
+}

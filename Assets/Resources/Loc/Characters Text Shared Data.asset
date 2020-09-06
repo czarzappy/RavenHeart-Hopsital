@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Characters Text Shared Data
+  m_EditorClassIdentifier: 
+  m_NextAvailableId: 20
+  m_TableName: Characters Text
+  m_TableNameGuidString: c0cb0cf246fbb44869b146e594f4035d
+  m_Entries:
+  - m_Id: 1
+    m_Key: CHARACTER_NAME_DANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Key: CHARACTER_NAME_HOLIDAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Key: CHARACTER_NAME_BIG_TEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Key: CHARACTER_NAME_ANNABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Key: CHARACTER_NAME_STEPHANIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Key: CHARACTER_NAME_WILLIAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Key: CHARACTER_NAME_ZJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Key: CHARACTER_ROLE_ZJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Key: CHARACTER_ROLE_ANNABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Key: CHARACTER_ROLE_BIGTEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Key: CHARACTER_NAME_BIGTEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Key: CHARACTER_ROLE_DANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Key: CHARACTER_NAME_NARRATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Key: CHARACTER_ROLE_NARRATOR
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  references:
+    version: 1

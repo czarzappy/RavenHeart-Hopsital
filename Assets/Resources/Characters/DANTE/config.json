@@ -1,0 +1,27 @@
+{
+    "Id": 8,
+    "DevName": "DANTE",
+    "RawName": "Dante",
+    "RawRole": "EMERGENCY",
+    "CharacterNameBackgroundColor": {
+        "r": 0.9098039,
+        "g": 0.254902,
+        "b": 0.09411765,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Dante_v2-2"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": true,
+    "FaceSpritePath": 
+    {
+        "Path": ["Dante_face_v2-2"]
+    }
+}

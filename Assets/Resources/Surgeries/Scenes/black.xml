@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>black</Name>
+  <BgOffset>
+    <X>0</X>
+    <Y>0</Y>
+  </BgOffset>
+  <OverrideBgSize>
+    <X>1066</X>
+    <Y>600</Y>
+  </OverrideBgSize>
+  <BgType>External</BgType>
+  <Entities />
+</Scene>

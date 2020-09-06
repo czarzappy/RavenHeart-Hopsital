@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FAILBOUND
+  - TRAY
+  - SMALLCUT
+  - JUICE
+  - GLASS
+  - SUTURE
+  - INCISION_POINT
+  - SCALPEL
+  - INCISION_AREA
+  - WOUND_CUT_LARGE
+  - WOUND_GLASS
+  - STITCH_GEL_BANDAGE
+  - HEMORRHAGE
+  - SUCTION
+  - SPAWNER_HEMORRHAGE
+  - BROKEN_RIBS
+  - ULCER_SMALL
+  - ULCER_LARGE
+  - WOUND_SMALL_CUT
+  - WOUND_CUT_SMALL
+  - WOUND_STEEL_SMALL
+  - OBSTRUCTION
+  - BANDAGE
+  - DEFIBRILLATOR
+  - SYRINGE
+  - BROKEN_BONE_CAST
+  - BUILDO_BRICKS
+  - BROKEN_CAT_LEG
+  - BROKEN_CAT_LEG_CAST
+  - BROKEN_ARM_BONE_CAST
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1212739169
+    locked: 0
+  - name: Body
+    uniqueID: 3518135095
+    locked: 0
+  - name: Tray
+    uniqueID: 2843300993
+    locked: 0
+  - name: Gunk
+    uniqueID: 86292075
+    locked: 0
+  - name: JuicePS
+    uniqueID: 1830678225
+    locked: 0
+  - name: Tools
+    uniqueID: 1262767199
+    locked: 0
+  - name: UI
+    uniqueID: 1037356663
+    locked: 0
+  - name: Fragment_Tray
+    uniqueID: 1728013647
+    locked: 0
+  - name: Characters
+    uniqueID: 2349672571
+    locked: 0
+  - name: Dialogue
+    uniqueID: 1256825001
+    locked: 0
+  - name: Win
+    uniqueID: 1357683293
+    locked: 0
+  - name: Notifs
+    uniqueID: 3816788671
+    locked: 0
+  - name: Fade
+    uniqueID: 1989999503
+    locked: 0

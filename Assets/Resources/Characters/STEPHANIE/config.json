@@ -1,0 +1,22 @@
+{
+    "Id": 11,
+    "DevName": "STEPHANIE",
+    "RawName": "Stephanie",
+    "CharacterNameBackgroundColor": {
+        "r": 1.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Mother"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false
+}

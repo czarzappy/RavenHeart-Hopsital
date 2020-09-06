@@ -1,0 +1,28 @@
+{
+    "Id": 7,
+    "DevName": "HOLIDAY",
+    "RawName": "Dr. Holiday",
+    "RawRole": "DIRECTOR",
+    "CharacterNameBackgroundColor": {
+        "r": 0.4431373,
+        "g": 0.5019608,
+        "b": 0.5764706,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Holiday-v2"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": true,
+    "FirstEpisodeUnlocked": true,
+    "FaceSpritePath":
+    {
+        "Path": ["Holiday-v2_face"]
+    }
+}

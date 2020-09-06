@@ -1,0 +1,21 @@
+{
+    "Id": 3,
+    "DevName": "PROTAG-F",
+    "CharacterNameBackgroundColor": {
+        "r": 0.5,
+        "g": 1.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "Size": 10,
+    "DefaultPoseDevName": "DEFAULT",
+    "Poses": [
+        {
+            "ExpressionDevName": "DEFAULT",
+            "SpritePath": [
+                "Female_v2-2"
+            ]
+        }
+    ],
+    "HasEpisodeTrack": false
+}

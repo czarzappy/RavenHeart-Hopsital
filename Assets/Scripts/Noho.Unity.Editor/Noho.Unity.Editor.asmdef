@@ -1,0 +1,25 @@
+{
+    "name": "Noho.Unity.Editor",
+    "references": [
+        "GUID:c3f42c7799f99427b968fd4e185da136",
+        "GUID:0e308cc75cbb44f9fa438980e10fc4c7",
+        "GUID:572dbb15b58a744b8ab60c607e87154d",
+        "GUID:ad340b9cde00446788c2cc722be2f72e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll",
+        "ZEngine.Core.dll",
+        "Noho.Parsing.dll",
+        "Noho.Configs.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

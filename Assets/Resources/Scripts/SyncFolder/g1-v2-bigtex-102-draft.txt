@@ -1,0 +1,59 @@
+//BIGTEX / EPISODE 2 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE:
+*SUBTITLE: Episode 2
+*LOVE_FOCUS: BIGTEX
+*BG: hospital_hallway
+*BGM: chill_morning
+
+
+*NARRATOR
+
+
+
+
+*END_CUTSCENE
+
+
+
+
+*PREOP
+*BG: hospital_operatingroom
+*BGM: pre-op
+*VICTIMS: 1
+
+
+*PROTAG, 4
+
+
+
+
+*END_PREOP
+
+
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: operation_a
+*TOOL_TIPS: BIGTEX
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Billy
+*VITALS: 40,30
+*PHASE: cat_chest_01
+        *WOUND_CUT_LARGE, 1
+        *WOUND_GLASS, 3
+*WOUND_CUT_SMALL, 4
+
+
+*BIGTEX
+asdf
+*END_PHASE
+*END_PATIENT
+*END_OPERATION

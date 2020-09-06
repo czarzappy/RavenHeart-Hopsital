@@ -1,0 +1,415 @@
+//DANTE / EPISODE 1 / draft
+//written by JT Radzai
+
+*CUTSCENE
+*TITLE:
+*SUBTITLE: Episode 1
+*LOVE_FOCUS: DANTE
+*BG: hospital_outside
+*BGM: chill_evening
+
+*NARRATOR
+You approach a young man standing in front of a sleek and modern ambulance, nothing like the big, box-shaped wagons you are familiar with.
+
+There is a holographic flame decal that runs along the front and sides of the ambulance. “The Inferno” is emblazoned on the hood. It’s like something out of a cheesy action movie.
+
+*DANTE, 4
+Are you ready, rookie? Clock’s tickin’.
+
+*PROTAG, 2
+
+*ACTION_CHOICE
+	*CHOICE
+*PROTAG, concerned
+I think so.
+
+*DANTE, grumpy
+Well, wake up scrub! This is the real deal.
+*END_CHOICE
+	*CHOICE
+*PROTAG, serious
+I was born ready.
+*LOVE: 2
+
+*DANTE, happy
+That’s what I’m talkin’ about!
+*END_CHOICE
+	*CHOICE
+*PROTAG, snarky
+Are you ready?
+
+*DANTE, unimpressed
+I bet you thought that sounded cool in your head. 
+*END_CHOICE
+	*CHOICE
+*PROTAG
+Semper Paratus.
+*LOVE: 1
+
+*DANTE, laughing
+This ain’t the Coast Guard, but I suppose close enough: we’re in the business of saving lives.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+*NARRATOR
+Dante pats the top of the Inferno lovingly and climbs inside. You get into the passenger seat and lock into the seatbelt harness. It feels like strapping into a race car.
+
+*DANTE, intrigued
+Holiday was making a big fuss over the new recruit. So let’s see whatcha’ got!
+
+*NARRATOR
+Dante presses several buttons and the console display of the vehicle lights up. 
+
+*DANTE
+Before we leave, I have a very important question to ask: what kind of tunes are we rolling with?
+
+*ACTION_CHOICE
+	*CHOICE
+		*PROTAG, calm
+		Lofi hip hop beats to study and/or relax to.
+
+		*DANTE, angry
+Really? How am I supposed to drive fast to chill beats to study and/or relax?
+
+*NARRATOR
+Dante hits the play button on the console and you begin to vibe.
+
+*BGM: chill_vaporwave
+	*END_CHOICE
+	*CHOICE
+		*PROTAG, happy
+		Something cheerful.
+
+		*DANTE, curious
+		I think I got something for you…
+
+		*NARRATOR
+Dante hits the play button on the console. For some reason it reminds you of Annabel…
+
+BGM: hospital
+	*END_CHOICE
+	*CHOICE
+		*PROTAG, thoughtful
+		Do you have any blues or country?
+
+		*NARRATOR
+		Dante raises an eyebrow.
+
+		*DANTE, unamused
+		If you insist. I’m picking next time, though.
+
+	*BGM: bigtex
+
+		*NARRATOR
+Dante hits the play button on the console. For some reason it reminds you of Big Tex...
+	*END_CHOICE
+	*CHOICE
+		*PROTAG, happy
+		Something fast, obviously.
+
+		*LOVE: 1
+
+		*NARRATOR
+Dante smirks as he hits the play button on the console. 
+
+*BGM: emergency
+
+Your heart jolts as the sudden volume of sound hits your ears. The lights on the dashboard pulse with the techno groove.
+	*END_CHOICE
+*END_ACTION_CHOICE
+
+*BG: charmcity_street
+
+*NARRATOR
+Dante pulls the stick shift into gear, and peels out of the Hospital’s garage. A hologram of a 3D map of the city appears on the dashboard with the route highlighted with a glowing line.
+
+He reaches up to grab a radio microphone, clicks the button in with his thumb and begins talking to you, even though you are only several inches apart.
+
+*DANTE
+Alright, rookie, here’s the situation. There’s been a fight at “The Crow’s Nest,” a local bar. Some say that place is haunted. Or cursed. Maybe both… 
+
+*ACTION_CHOICE
+	*CHOICE
+		*PROTAG
+Haunted?
+
+		*PROTAG
+		Like, ghosts haunted?
+
+		*DANTE
+It's old and run down so it could just be squeaky floorboards. But it might be more. Fun to think about, right?
+	*END_CHOICE
+	*CHOICE
+		*PROTAG
+		Cursed?
+
+		*DANTE
+Its old and a lot of bad stuff has gone down there so I think that qualifies as cursed, if you ask me.
+	*END_CHOICE
+*END_ACTION_CHOICE
+
+Anyway, two victims have been identified for us to handle, but there could be more. You never know with things like this, there may be others who got hurt. It was a bar fight, after all.
+
+Expect broken glass. Lacerations. Probably broken bones. We’ll see soon enough, so keep your eyes peeled.
+
+*NARRATOR
+Dante fluidly adjusts gears while driving at breakneck speed, weaving between cars and trucks on the busy city streets. Dante steals a glance your way amidst the chaos of the road.
+
+*DANTE
+You look like you got something on your mind. What’s up?
+
+*ACTION_CHOICE
+	*CHOICE
+		*PROTAG
+		Do you always drive this reckless?
+
+		*NARRATOR
+Dante turns to you seemingly bemused.
+
+		*DANTE, coy
+		Yep.
+	*END_CHOICE
+	*CHOICE
+		*PROTAG, curious
+Why was there a fight?
+
+*DANTE
+I dunno. The cops are on their way to deal with that. It's not really our problem. We don’t cuff ‘em, we fix ‘em. That’s it.
+	*END_CHOICE
+*END_ACTION_CHOICE
+
+*NARRATOR
+The wheels screech as Dante slams on the breaks.
+
+*DANTE
+Alright, we’re here.
+
+*END_CUTSCENE
+
+*CUTSCENE
+*BGM: dante_hangout
+*BG: charmcity_crowsnest
+
+*NARRATOR
+You follow Dante as he enters the bar. A restless crowd gathered around the entrance, lit by a neon light. Dante raises his voice over the commotion and pushes his way through.
+
+*DANTE, 4, angry
+Outta the way! Paramedics coming through! 
+
+*DANTE, confused
+Rookie? Where the hell are you?
+
+*PROTAG, 2
+*ACTION_CHOICE
+	*CHOICE
+*PROTAG
+Push through the crowd.
+
+*NARRATOR
+You push your way through the crowd in an attempt to catch up with Dante and bump into a major beefcake. They do not seem to notice, but are blocking your way.
+	*END_CHOICE
+	*CHOICE
+		*PROTAG
+		Look for an opening.
+
+		*NARRATOR
+You look for a break in the crowd to slip by. The crowd keeps shuffling making it hard to find an opening.
+
+*LOVE: -1
+
+*DANTE, angry
+Umm, hello? We gotta job to do here!
+
+*NARRATOR
+At Dante’s urging, you start to push through the crowd and bump into a major beefcake. They do not seem to notice, but are blocking your way.
+	*END_CHOICE
+*END_ACTION_CHOICE
+
+*ACTION_CHOICE
+	*CHOICE
+		*PROTAG, scared
+Excuse me. I need to get through.
+
+*NARRATOR
+The imposing figure does not seem to hear you. Suddenly an arm reaches out of the crowd and grabs onto your lapel and pulls you forward.
+
+*DANTE, angry
+What the hell are you doing? We got to get working and fast!
+*LOVE: -1
+
+*NARRATOR
+Dante returns to two men lying on the ground. They appear to be bleeding.
+	*END_CHOICE
+*CHOICE
+		*PROTAG, angry
+Move it or lose it pal!
+
+*NARRATOR
+The imposing figure slowly turns towards you, eyes bulging in anger. They notice your medical gear and step aside, eyes locked onto you.
+
+You approach Dante who is kneeling next to two men lying on the ground. They appear to be bleeding.
+	*END_CHOICE
+*END_ACTION_CHOICE
+
+*DANTE, neutral
+Took you long enough. Let’s get started.
+
+*END_CUTSCENE
+
+
+*PREOP
+*BG: charmcity_crowsnest
+*BGM: pre-op
+*VICTIMS: 2?
+
+*PROTAG, 2
+
+*DANTE, 4
+Looks like these two chuckleheads decided to try out for MMA after putting back a few too many.
+
+One has a broken arm and both are suffering from lacerations. Broken glass is embedded in their arms.
+
+Let’s patch ‘em up quick and bring them back to the hospital for further treatment.
+
+*END_PREOP
+
+
+*OPERATION
+*BG: EMT_1
+*BGM: operation_a
+*TOOL_TIPS: DANTE
+*INITIAL_PATIENTS: 1
+
+*PATIENT: 1
+*NAME: Chuck E.
+*VITALS: 50,40		//max, current
+*PHASE: hand_left
+*HEMORRHAGE, 2
+*WOUND_GLASS, 3
+
+*DANTE
+We need to get the glass shards out of the patient before we can patch ‘em up. Also make sure to clean up the blood.
+*END_PHASE
+*PHASE: arm_right
+	*HEMORRHAGE, 4
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 3
+*END_PHASE
+*END_PATIENT
+
+*PATIENT: 2
+*NAME: Hank B.
+*VITALS: 60,30		//max, current
+*PHASE: arm_left
+*HEMORRHAGE, 3
+*WOUND_GLASS, 3
+*END_PHASE
+*PHASE: arm_right
+	*WOUND_CUT_SMALL, 3
+*BROKEN_ARM, 1
+
+*PATIENT_TALK
+I think… I think my arm is broken.
+
+*DANTE
+I think you’re right, so stop moving. We’ll patch you up quick.
+*END_PHASE
+*END_PATIENT
+
+*PATIENT: 3
+*NAME: Greg P.
+*VITALS: 40,20		//max, current
+*PHASE: chest
+	*DEFIBRILLATOR, 1
+
+*PATIENT_TALK
+I tried… to stop the fight… he hit me… 
+
+*DANTE
+It’s okay, bud, we’re gonna take care of you. 
+
+*PATIENT_TALK
+I- I- I- I’m…
+
+*DANTE
+He’s passing out! His heart stopped!
+
+*DANTE
+Grab the defibrillators. C’mon, hurry!
+*END_PHASE
+*PHASE
+	*DANTE
+	Alright, I think you stabilized him.
+
+	*PATIENT_TALK
+	Ughhh…
+
+	*DANTE
+Just hang in there, bud, we’ll be getting you outta here in no time.
+*END_PHASE
+*PHASE: face
+	*HEMORRHAGE, 3
+*WOUND_GLASS, 3
+
+*DANTE
+We can’t do much about the blunt force trauma, but you can get rid of the glass and stop the bleeding.
+*END_PHASE
+*END_PATIENT
+
+*END_OPERATION
+
+*CUTSCENE
+*BG: charmcity_street
+*BGM: dante_hangout
+
+*PROTAG, 4
+*DANTE, 2, happy
+Nice work out there.
+I’m… sorry if it seemed like I doubted you.
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+Thank you.
+
+*DANTE, embarrassed
+A-anyway...
+*END_CHOICE
+*CHOICE
+*PROTAG, coy
+	Was that… appreciation?
+
+*DANTE, embarrassed
+N-nothing! Shut up!
+
+*LOVE: 1
+*END_CHOICE
+*END_ACTION_CHOICE
+
+*DANTE, neutral
+Anyway, it's getting late so I’ll see ya around. Maybe we can catch a movie next time or something.
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+Sounds good.
+
+*DANTE, happy
+Later!
+*END_CHOICE
+*CHOICE
+*PROTAG, wink
+	I’ll keep an eye out for you.
+
+*LOVE: 1
+
+*DANTE, embarrassed
+…
+
+*DANTE, leave
+*END_CHOICE
+*END_ACTION_CHOICE
+
+*END_CUTSCENE
+
+//date w/ dante: do you believe in ghosts/aliens?
